@@ -68,12 +68,15 @@ def remind_date(t):
 
 
 def send_timed_email(password, sender, receiver, hws):
-    """ Send reminder emails for every homework. I got ideas for this function
-    from this post: 
+    """ Send reminder emails for every homework. I got email timing idea for this 
+    function from this post: 
     https://stackoverflow.com/questions/2031111
     /in-python-how-can-i-put-a-thread-to-sleep-until-a-specific-time
-    Line 94 and 95 are an adaptation of the code from this post. All other parts
-    are original 
+    Line 102 and 103 are an adaptation of the code from this post. I also learned how to
+    sort tuples by one value in it from this post:
+    https://stackoverflow.com/questions/4554115/sorting-tuples-in-python-with-a-custom-key
+    The use of sorted() and helper function remind_date() is an adaptation of the code
+    from this post. 
     
     Parameters
     ----------
